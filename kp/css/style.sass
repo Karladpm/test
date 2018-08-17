@@ -1,0 +1,50 @@
+$color-primario:#e84c3d
+$letra-cursiva:'Sawarabi Mincho', sans-serif
+$letra-Roboto:'Roboto', sans-serif
+$margen-d:16.5%
+$altura: 318px
+
+body
+  font-family: $letra-Roboto
+  margin: 0
+  padding: 0
+  overflow-x: hidden
+  overflow-y: auto
+  width: 100%
+
+@import _jumbotron
+@import _contenedores
+@import _form
+
+footer
+  background-color: $color-primario
+  height: 250px
+  margin-top: 150px
+
+.print
+ float: right
+ font-size: 26px
+ color: #fff
+ font-family: $letra-cursiva !important
+ text-decoration: none !important
+ &:hover
+   color:#fff !important
+   font-size:27px
+.foot
+  height: 154px
+ 
+.img-footer
+  border: 8px solid #e84c3d61
+  position: absolute
+  left: 28%
+  top: -70px
+            
+        
+    
+@media screen and (max-device-width : 480px)
+ .cont1 p
+   font-size: 27px
+ 
+ .cont2 p
+   font-size: 25px
+ 
